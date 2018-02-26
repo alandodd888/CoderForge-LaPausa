@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<title>CoderForge LaPausa - A.D.</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Butcherman|Cuprum" rel="stylesheet">
+<style>
+body {
+background-color:black;
+}
+.cta {
+margin: 10px;
+margin-top:20px;
+border-radius:50px;
+}
+.navAlan, .activeAlan {
+color:#EBFF35; font-family: 'Cuprum', cursive;
+}
+.navAlan a:link {color: #EBFF35; text-decoration:none; font-weight:600;font-size:17px;padding:22px;}
+.navAlan a:visited {color:#EBFF35; text-decoration:none; font-weight:600;font-size:17px;padding:22px;}
+.navAlan a:hover {color: #EBFF35; text-decoration:underline; font-weight:600;font-size:17px;padding:22px;}
+.navAlan a:active {color: #EBFF35; text-decoration:none; font-weight:600;font-size:17px;padding:22px;}
+
+.activeAlan {background-color:#0E61B2; color:#EBFF35; font-weight:600;font-size:17px;}
+
+.activeAlan a:link {color: #EBFF35; text-decoration:none; font-weight:600;font-size:17px;padding:22px;}
+.activeAlan a:visited {color:#EBFF35; text-decoration:none; font-weight:600;font-size:17px;padding:22px;}
+.activeAlan a:hover {color: #EBFF35; text-decoration:none; font-weight:600;font-size:17px;padding:22px;}
+.activeAlan a:active {color: #EBFF35; text-decoration:none; font-weight:600;font-size:17px;padding:22px;}
+
+.logoAlan {float:right; padding: 37px 0px 0px 0px;}
+
+.logoAlan a:link {color: #B21C12; text-decoration:none; font-weight:800;font-size:20px;background:#EBFF35; border:2px solid #0275d8;}
+.logoAlan a:visited {color:#B21C12; text-decoration:none; font-weight:800;font-size:20px;background:#EBFF35;border: 2px solid #0275d8;}
+.logoAlan a:hover {color: #B21C12; text-decoration:none; font-weight:800;font-size:20px;background:#EBFF35;border: 2px solid #0275d8;}
+.logoAlan a:active {color: #B21C12; text-decoration:none; font-weight:800;font-size:20px;background:#EBFF35;border: 2px solid #0275d8;}
+
+.flexAlan {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+
+
+}
+.flexItemAlan {
+
+}
+.paddingNav {
+    padding: 10px;
+
+}
+
+.street {
+  position: relative;
+  font-family: 'Candal', sans-serif;
+  font-size: 1.1em;
+  font-style: italic;
+  -webkit-text-stroke: 0.1px #FF8441;
+  color: #000;
+  text-shadow: -10px 10px 0px #FF8441;
+  margin: 0;
+  opacity:.8;
+}
+
+.windows .street {
+  -webkit-text-stroke: 4px #FF8441;
+}
+
+.street:before {
+  content: '';
+  position: absolute;
+  height: 4px;
+  width: 665px;
+  top: 120px;
+  left: 48px;
+  background: #FF8441;
+  box-shadow: -8px 13px #FF8441;
+}
+
+.windows .street:before {
+  left: 55px;
+  width: 659px;
+}
+
+.street:after {
+  content: '';
+  position: absolute;
+  height: 4px;
+  width: 639px;
+  top: 109px;
+  left: 36px;
+  background: #FF8441;
+  box-shadow: -4px 13px #FF8441;
+}
+
+// MEDIA QUERIES
+
+@media screen and (max-width:768px){
+#someElement  {
+		display:none;
+	}
+	
+}
+
+@media screen and (max-width:320px){
+.header nav {
+		display:none !important;
+	}
+	
+}
+
+
+</style>
+</head>
+
+<body>
+
+<!-- // red #B21C12 -- yellow #EBFF35 -- more red #FF2E21 -- blue #0669CC -- blue #0E61B2 -->
+
+<div class="container">
+    <div class="header clearfix">
+        <nav>
+            <ul class="nav float-right paddingNav">
+                <li class="nav-item activeAlan">
+                    <a class="nav-link active activeAlan" href="#">Home
+                        <span class="sr-only activeAlan">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item navAlan">
+                    <a class="nav-link navAlan" href="#">How we roll</a>
+                </li>
+                <li class="nav-item navAlan">
+                    <a class="nav-link navAlan" href="#">About</a>
+                </li>
+                <li class="nav-item navAlan">
+                    <a class="nav-link navAlan" href="#">Blog</a>
+                </li>
+                <li class="nav-item navAlan">
+                    <a class="nav-link navAlan" href="#">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+		<div class="flexAlan">
+        <h3 class="text-muted">
+				<div class="flexItemAlan">
+					<a href="index.html" class="flexItemAlan">
+				
+					<!-- svg logo start-->
+					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 300 300">
+					<rect x="0" y="0" width="100" height="100" fill="transparent" />
+					<g id="widget" transform="matrix(1,0,0,1,150,150)">
+						<path class="background background-right" d="M108.697,-63.0168 L108.796,-63.1895 L108.697,-63.132 L108.697,-63.3034 L108.548,-63.0462 L108.446,-62.9871 L0.0973386,-125.472 L0.0611439,-125.534 L0.0611236,-125.492 L-0.0113677,-125.534 L0.0610828,-125.409 L-0.0611439,125.534 L107.726,63.3034 L108.697,63.3034 L108.697,62.7429 L108.746,62.7142 L108.697,62.6279 L108.697,-62.7273 L108.697,-62.7273 L108.796,-62.7848 L108.697,-62.8423 L108.697,-63.0168 Z" fill="#b08225" fill-opacity="1" />
+						<path class="background background-left" d="M-108.819,-63.0168 L-108.919,-63.1895 L-108.819,-63.132 L-108.819,-63.3034 L-108.67,-63.0462 L-108.568,-62.9871 L-0.219626,-125.472 L-0.183432,-125.534 L-0.183411,-125.492 L-0.11092,-125.534 L-0.183371,-125.409 L-0.0611439,125.534 L-107.848,63.3034 L-108.819,63.3034 L-108.819,62.7429 L-108.869,62.7142 L-108.819,62.6279 L-108.819,-62.7273 L-108.819,-62.7273 L-108.919,-62.7848 L-108.819,-62.8423 L-108.819,-63.0168 Z" fill="#fcd035" fill-opacity="1" />
+						<path class="c" d="M-80.4612,-28.9973 L-96.084,-56.0568 L-28.3962,-95.1363 L-12.7734,-68.0768 L-80.4612,-28.9973 L-80.4612,-28.9973 Z" fill="#ffffff" fill-opacity="1" />
+						<path class="c" d="M-28.3962,95.07 L-12.7734,68.0105 L-80.4612,28.931 L-96.084,55.9905 L-28.3962,95.07 L-28.3962,95.07 Z" fill="#ffffff" fill-opacity="1" />
+						<path class="c" d="M-64.8384,22.0936 L-96.084,22.0936 L-96.084,-56.0655 L-64.8384,-56.0655 L-64.8384,22.0936 L-64.8384,22.0936 Z" fill="#ffffff" fill-opacity="1" />
+						<path class="c" d="M-64.8384,56.0169 L-96.084,56.0169 L-96.084,-22.1421 L-64.8384,-22.1421 L-64.8384,56.0169 L-64.8384,56.0169 Z" fill="#ffffff" fill-opacity="1" />
+						<path class="c" d="M-12.7734,-68.0437 L-44.019,-86.0764 L-12.7734,-104.109 Z" fill="#ffffff" fill-opacity="1" />
+						<path class="c" d="M-12.7734,104.109 L-44.019,86.0764 L-12.7734,68.0437 Z" fill="#ffffff" fill-opacity="1" />
+						<path class="c" d="M-60.2801,56.0169 L-70.6284,56.0169 L-70.6284,-47.2285 L-60.2801,-47.2285 L-60.2801,56.0169 Z" fill="#ffffff" fill-opacity="1" />
+						<path class="f" d="M37.8304,89.2498 L12.031,89.2498 L12.031,-81.0108 L37.8304,-81.0108 L37.8304,89.2498 Z" fill="#ffffff" fill-opacity="1" />
+						<path class="f" d="M12.031,74.33 L37.8304,89.2196 L12.031,104.109 Z" fill="#ffffff" fill-opacity="1" />
+						<path class="f" d="M12.031,-68.9902 L27.2009,-95.2653 L100.515,-52.9376 L85.3447,-26.6626 L12.031,-68.9902 Z" fill="#ffffff" fill-opacity="1" />
+						<path class="f" d="M70.3087,-35.3606 L100.597,-52.8543 L100.591,-17.877 Z" fill="#ffffff" fill-opacity="1" />
+						<path class="f" d="M12.0365,-71.7278 L12.031,-104.109 L40.0714,-87.9138 Z" fill="#ffffff" fill-opacity="1" />
+						<path class="f" d="M29.6836,46.2915 L29.6777,11.3142 L59.966,28.8079 Z" fill="#ffffff" fill-opacity="1" />
+						<path class="f" d="M59.966,28.8963 L37.1078,28.8963 L37.1078,-28.2822 L59.966,-28.2822 L59.966,28.8963 L59.966,28.8963 Z" fill="#ffffff" fill-opacity="1" />
+					</g>
+				  </svg>
+				 </a>
+				 <!--svg logo end-->
+						<span class="logoAlan">
+							<a href="index.html">
+				 				LaPausa.CodeForge.io
+							</a>
+						</span>
+
+				 
+	  			</div>
+
+		</h3>
+		</div>
+    
+
+    <div class="jumbotron cta">
+        <h1 class="display-3">Welcome to the Coder Forge, La Pausa</h1>
+        <p class="lead">A place to learn how to forge out code, to smyth out patterns and designs.  From beginners to guru's.</p>
+		<p class="lead">Every Monday Night, Dublin, Ireland</p>
+        <p>
+            <!--<a class="btn btn-lg btn-success street" href="#" role="button">Sign up today</a>-->
+			<a class="chrome" href="#">Sign up today</a>
+        </p>
+    </div>
+
+    <div class="row marketing">
+        <div class="col-lg-6">
+            <h4>Sub-heading 1</h4>
+            <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+
+            <h4>Sub-heading 2</h4>
+            <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
+
+            <h4>Sub-heading 3</h4>
+            <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+        </div>
+
+        <div class="col-lg-6">
+            <h4>Sub-heading 4</h4>
+            <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+
+            <h4>Sub-heading 5</h4>
+            <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
+
+            <h4>Sub-heading 6</h4>
+            <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; Company 2017</p>
+    </footer>
+
+</div>
+<!-- /container -->
+
+    <!-- <section>
+
+    </section> -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+        crossorigin="anonymous"></script>
+    <script>
+        window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+</body>
+
+</html>
